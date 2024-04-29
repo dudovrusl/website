@@ -173,15 +173,15 @@ mark {
     overflow: hidden;
 }
 
+.navbar-item:hover,
+.navbar-burger:hover {
+    background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), .1);
+}
+
 @media screen and (max-width:1023px) {
     .navbar-menu {
         background: transparent;
         box-shadow: none;
-    }
-
-    .navbar-item:hover,
-    .navbar-burger:hover {
-        background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), .1);
     }
 
     .is-big {
@@ -189,6 +189,6 @@ mark {
     }
 
     .is-size-1 {
-        font-size: 2rem!important;
+        font-size: 2rem !important;
     }
 }
