@@ -209,7 +209,4 @@ mark {
     .is-size-1 {
         font-size: 2rem !important;
     }
-    iframe {
-        width: 90%!important;
-    }
 }
