@@ -15,20 +15,24 @@
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Yandex.Metrika -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-    
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
         ym(97158281, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/97158281" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/97158281" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
 </head>
 
 <body>
@@ -111,23 +115,27 @@
                     </h2>
                     <div class="columns" style="margin-top: 80px;">
                         <div class="column">
-                            <p class="title is-uppercase has-text-black is-size-4 mb-0">Более <span data-animateDuration="1000">15</span></p>
-                            <p class="small" style="color: #707070;">лет опыта в&nbsp;управлении международными проектами</p>
+                            <p class="title is-uppercase has-text-black is-size-4 mb-0">Более <span
+                                    data-animateDuration="1000">15</span></p>
+                            <p class="small" style="color: #707070;">лет опыта в&nbsp;управлении международными
+                                проектами</p>
                         </div>
                         <div class="column">
-                            <p class="title is-uppercase has-text-black is-size-4 mb-0">Более <span data-animateDuration="3000">50</span></p>
+                            <p class="title is-uppercase has-text-black is-size-4 mb-0">Более <span
+                                    data-animateDuration="3000">50</span></p>
                             <p class="small" style="color: #707070;">успешно реализованных
                                 проектов</p>
                         </div>
                         <div class="column">
-                            <p class="title is-uppercase has-text-black is-size-4 mb-0">Более <span data-animateDuration="4000">500</span></p>
+                            <p class="title is-uppercase has-text-black is-size-4 mb-0">Более <span
+                                    data-animateDuration="4000">500</span></p>
                             <p class="small" style="color: #707070;">часов консультаций и&nbsp;тренингов</p>
                         </div>
                     </div>
                 </div>
                 <div class="column is-3 is-offset-1">
-                    <figure class="image" id="box">
-                        <img id="image" src='files/portrait.jpg' onmouseover="this.src='files/portrait-hover.jpg';"
+                    <figure class="image is-3by4" id="box">
+                        <img id="inner" src='files/portrait.jpg' onmouseover="this.src='files/portrait-hover.jpg';"
                             onmouseout="this.src='files/portrait.jpg';" />
                     </figure>
                 </div>
@@ -323,7 +331,7 @@
                         У вас есть вопросы? <br />
                         <mark class="yellow has-text-white">Давайте обсудим.</mark>
                     </p>
-                    <button class="button is-button is-green mt-6 is-block has-text-white">Написать</button>
+                    <button class="js-modal-trigger button is-button is-green mt-6 is-block has-text-white" data-target="modal-form">Написать</button>
                 </div>
                 <div class="column is-2 is-offset-7 has-text-right">
                     <p class="title is-size-4"><a href="#" class="has-text-white">LNKDN</a></p>
@@ -335,6 +343,7 @@
                     target="_blank" class="has-text-white">Tiny
                     Studio</a>, 2024</p>
         </div>
+        <script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/662fd38f90fa7b38bfc93bac/?iframe=1" frameborder="0" name="ya-form-662fd38f90fa7b38bfc93bac" width="650"></iframe>
     </footer>
 
     <!-- Modals -->
@@ -363,6 +372,17 @@
             <p class="image">
                 <img src="files/asia.jpg" alt="IT Asia Deluxe" style="width: 75%; margin: auto;">
             </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- Form -->
+    <div id="modal-form" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+            <script src="https://forms.yandex.ru/_static/embed.js"></script>
+            <iframe src="https://forms.yandex.ru/u/662fd38f90fa7b38bfc93bac/?iframe=1" frameborder="0" name="ya-form-662fd38f90fa7b38bfc93bac" width="650" height="650"></iframe>
+        </div>
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
