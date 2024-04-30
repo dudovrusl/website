@@ -85,10 +85,10 @@ a.navbar-item,
 
 .card.small:hover {
     rotate: -3deg;
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
-    -o-transition: transform 0.5s;
+    transition: rotate 0.5s;
+    -webkit-transition: rotate 0.5s;
+    -moz-transition: rotate 0.5s;
+    -o-transition: rotate 0.5s;
 }
 
 .card-wrap {
